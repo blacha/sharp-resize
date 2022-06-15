@@ -5,13 +5,13 @@
 cd ./sharp-0.30
 yarn
 
-cd ./sharp-0.28
+cd ./sharp-0.29
 yarn
 ```
 
 
 ```
-node sharp-0.28/index.js # Outputs a PNG
+node sharp-0.29/index.js # Outputs a PNG
 
 node sharp-0.30/index.js # Error: webp: bad image dimensions
 ```

@@ -16,9 +16,9 @@ node sharp-0.28/index.js # Outputs a PNG
 node sharp-0.30/index.js # Error: webp: bad image dimensions
 ```
 
-# PRoblem
+# Problem
 
-Scaling a webp image past 16k now fails
+Scaling a webp image past 16383 x 16383 now fails
 
 ```typescript
 pipeline.resize(32768, 32768).extract({ top: 16384, left: 16384, width: 1024, height: 1024 })

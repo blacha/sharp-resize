@@ -1,5 +1,6 @@
 # Sharp resizing changes 0.29 vs 0.30
 
+# Fixes with sharp 0.30.7 https://github.com/lovell/sharp/issues/3262
 
 ```
 cd ./sharp-0.30
